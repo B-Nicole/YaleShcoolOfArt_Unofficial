@@ -1,0 +1,41 @@
+h2{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+#graduateCourses{
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+  
+}
+#CourseList{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+#housing{
+    margin: 10% 5% 10% 5%;
+}
+#housing a{
+    color: black;
+}
+#housing a:hover{
+    color: gray;
+}
+
+#housing-h1{
+    text-align: center;
+}
+#housing-h3{
+    margin-top: 10%;
+    text-align: center;
+}
+#housing-list{
+    margin-top: 5%;
+}

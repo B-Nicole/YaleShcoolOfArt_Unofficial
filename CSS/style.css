@@ -1,0 +1,92 @@
+ 
+
+a{
+    color: white;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+hr{
+    background-color: white;
+
+}
+
+
+/* NAVIGATION & CAROUCELL */
+.nav-item{
+    padding: 0 18px; 
+}
+#caroucell-img{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+}
+.carousel-item img{
+    height: 500px;
+    width: 1280px;
+}
+#mission-statement{
+    font-family: 'Open Sans Condensed', sans-serif; 
+    font-size: 2rem;
+    margin: 100px 200px 100px 200px;
+    text-align: center;
+   
+}
+
+/* STATISTICS */
+
+#college-statistics{
+    margin-bottom: 150px;
+}
+.stat-box{
+    text-align: center;
+}
+.stat-box h2{
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif; 
+}
+.stat-box p{
+    font-size: 1.5rem;
+    margin-left: 30px;
+    color: #858585;
+}
+
+#decor{
+    background-color: #0035A1;
+    height: 10px;
+    margin-left: 80px;
+    width: 120px;
+}
+
+/* NEWS */
+#news{
+    text-align: center;
+}
+
+/* FOOTER */
+.footer-yale{
+    background-color: #3b3f48;
+    color: white;
+     
+}
+
+.bottomCopyright{
+
+    display: inline-block;
+    padding-right: 0px;
+    margin-left: 75px;
+    margin-top: 15px;
+     
+}
+.bottomCopyright p {
+    margin-bottom: 15px;
+}
+.socialMediaButtons{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.yaleIcon{
+    display: inline-block;
+}

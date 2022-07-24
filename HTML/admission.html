@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+ 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Admissions - Yale School of Art</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="icon" href="../Img/yale-icons/favicon.ico"/> 
+
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300;400;600&family=STIX+Two+Math&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+        <!--Fontawsome-->
+        <script src="https://kit.fontawesome.com/552306346c.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="..\CSS\style.css">
+        <link rel="stylesheet" href="..\CSS\courses.css">
+        <link rel="stylesheet" href="..\CSS\admission.css">
+    </head>
+
+    <body>
+         
+        <!--NAVBAR-->
+        
+        <nav class = "navbar navbar-expand-lg navbar-dark"  style="background-color: #0035A1;">
+
+            <a class="navbar-brand" href="https://www.yale.edu/">
+                <img src="..\Img\yale-icons\touch-icon-228.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Yale School of Art - Admissions
+            </a>
+
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class = "navbar-nav  ml-auto">
+
+                    <li class = "nav-item active">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+
+                    <li class = "nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="courses.html">Courses</a>
+                        <a class="dropdown-item" href="graduateStudyAreas.html">Graduate Study Areas</a>
+                        </div>
+                    </li>
+
+                    <li class = "nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Apply</a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="admission.html">Admission</a>
+                        <a class="dropdown-item" href="graduateAdmission.html">Graduate Admission</a>
+                        <a class="dropdown-item" href="tutionAndFees.html">Tuition and Fees</a>
+                        <a class="dropdown-item" href="housing.html">Housing</a>
+                        </div>
+                    </li>
+
+                    <li class = "nav-item active">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+
+        <!--SLIDESHOW-->
+        <section id = "caroucell-img">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-keyboard = "true">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="..\Img\Caroucell\YaleArtBuilding.jpg" class="d-block w-100" alt="Yale University Art Builng">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..\Img\Caroucell\Artroom.jpg" class="d-block w-100" alt="Yale University room with art students">
+                    </div>
+                   
+                </div>
+
+                    <!-- The href below must be the same as the id in the caroucel-->
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+        </section>
+
+        <!--COURSES-->
+        <section id = "admissions-info">
+            <div class = "admissions-container_Notice">          
+                <h2> FALL 2022 ADMISSION DEADLINES + NOTICES</h2>
+
+                <div class = "admissions_Noice_Information">
+                    The online application for programs beginning in the 2022–2023 academic year will be linked here after October 10th, 2021.
+                    All applications for Fall 2022 must be submitted no later than 11:59:59 PM – EST on Wednesday, January 5, 2022.
+                    <br>
+                    <b>References and supporting documents:</b> While references and TOEFL scores (if applicable) may continue to be received 
+                    after the January 5th deadline, review of applications begins soon thereafter. Applicants are thus urged to impress upon 
+                    those writing reference letters, or submitting items on their behalf, that the timely submission of such documents is 
+                    critical to guarantee inclusion in the admission committee’s review.
+                    <br>
+                    <br>
+                    Please also note that upon entering an individual as a reference in the application system, a reference request and URL 
+                    to upload the recommendation letter is automatically sent to the recipient’s email. Applicants who decide to remove a 
+                    specific reference from their application must notify that individual directly as the link will become inactive.
+
+                    <strong>The non-refundable fee to apply is $100.</strong> Please note that Yale School or Art practices need-blind admission. 
+                    “Please see details in the next section of this page.”
+
+                   <div class = "applicationStatus_Information">
+                    <strong>Application Status:</strong> Due to the high volume of incoming applications and processing which will be
+                        happening remotely this cycle, our office is unable to provide application status checks or confirm the receipt of 
+                        items by phone or by email. Applicants should familiarize themselves with their Yale admission status page 
+                        (accessed by logging into the application system) which will indicate outstanding items.
+                        <br>
+                        Receipt of items submitted by digital upload is updated in real time on the application status page checklist. 
+                        Please allow one week for credentials received by postal mail to be reflected in the status page.
+                        <br>
+                        <strong>Admission Decision Notification:</strong> First-round admission decisions, which include interview invitations as well as denials, 
+                        will be sent in February.
+                    </div>
+                </div>
+            </div>
+                    
+
+
+
+            <div class = "admissions_container">         
+
+                <h2>Admission</h2>
+            
+                <div class = "admissions_information">
+                    Students are admitted to Yale’s MFA for the Fall semester of each year only. 
+                    Applicants are notified of the admission committee’s decisions on preliminary selections in February, and final decisions in early March. No information about decisions will be given over the phone or advance of the batch written release to all finalists. 
+                    To apply for more than one area of concentration, separate applications, fees, and supporting documentation must be submitted. The work submitted 
+                    should be representative of the applicant’s experience in that particular field. Applying to more than one program does not increase an applicant’s chances of selection.
+                    <br>
+                    <div class = "admission_note"><b>Please note:</b> Yale School of Art does not practice admission deferment; An offer of admission for Fall 2022 is valid 
+                    only for enrollment for that year regardless of the in-residence conditions of the Yale campus at that time. Applicants who are offered
+                    admission but choose not to enroll are welcome to reapply to the School in a future cycle.
+                    </div>
+                    <br>
+                    <div class = "application_dedline"><strong>APPLICATION DEADLINE:</strong> Online applications for programs beginning in the 2022–2023 
+                    academic year <strong>must be uploaded no later than 11:59:59 PM EST on January 5, 2022.</strong> Applicants will not be allowed to submit materials 
+                    or applications after the deadline has passed. Please note that when many applicants are uploading simultaneously near the deadline, it is possible 
+                    that lengthier processing times will be experienced. To avoid this, please consider submitting prior to the deadline day.
+                    </div>
+                    <br>
+                    An application to the School of Art requires forethought and planning. It is important to read all of the application instructions carefully. Following these instructions will ensure that your application is viewed to best advantage.
+
+                    The Yale School of Art <a href = " https://apply.art.yale.edu/apply">application for the 2022–2023 academic year</a> is available online. The information that follows will assist you in filing the application online. For an explanation of specific requirements for each area of study, 
+                    please refer to the departmental sections that follow.
+
+                    <h2>Application materials:</h2>
+
+                    <h5>The following materials are required for consideration of your application for admission: </h5>
+
+                        <div class = "application_Materials">Submit the online application. Application portal opens on October 5 and may be worked until the January 5 deadline. As it
+                        generally takes several weeks to complete an application, it is strongly recommended that applicants prepare their materials early to ensure 
+                        completion by the deadline.</div>
+
+                    Please note that <b>the School of Art is NOT part of the Yale Graduate School of Arts and Sciences</b>, and it is not possible to apply by using 
+                    application materials found on the Graduate School’s Web site.
+
+                    <strong>Nonrefundable application fee of $100.</strong> Please follow payment instructions at https://apply.art.yale.edu/apply/. 
+                    Forms of payment include credit card and checking account.
+
+                    <div class = "countriesLowExchange">Yale School of Art, in our commitment to equity and access, practices “need blind admission”; 
+                    meaning that, candidate financial need or ability is never disclosed to the admission committee during review of MFA applications. 
+                    For this reason, and because the processing and careful review of each individual application demands great time and human resources 
+                    we only waive the application fee for students applying from the following nations with lowest US Exchange rates: <b>Venezuela,
+                    Iran,Vietnam,Indonesia,Uzbekistan,Sierra Leone,Laos,Guinea,Paraguay,Cambodia.</b></div>
+
+                   
+
+                    Applicants whose nationality and/or current physical location is in one of the above nations may simply submit the application for admission without the fee.
+                    Please email art.admissions@yale.edu with the subject line “international exchange rate fee waiver”. The email should include the student’s full name, 
+                    date of birth, and program to which they are applying. If you qualify for a fee waiver and have already paid, we will refund the fee.
+
+                    A one-page statement that addresses influences, interests, current work direction, brief life history (as it relates to art/design practice), 
+                    and reasons for applying to graduate school at this time. Statements should be limited to one page or no more than 500 words.
+
+                    Applicants to the Painting/Printmaking program should make reference in their statements to the “representative work” in the portfolio; 
+                    this is not critical for the other programs.
+
+                    References from three persons practicing or teaching in the field in which application is made, attesting to the applicant’s ability and 
+                    competence in that field.
+
+                    NOTE: The admissions committee reviews applications shortly after the deadline. While it is not uncommon for letters of 
+                    recommendation to come in past the January 5th deadline, please impress upon on those who will be writing on your behalf, 
+                    that late submission of supporting documentation may risk exclusion from the review. Applicants can always view the receipt status 
+                    of reference requests on the application status page.
+
+                    Transcripts of academic record for the bachelor’s degree and/or professional art schools attended. 
+                    Student/unofficial copies may be uploaded to the application for the preliminary jury. Official transcripts 
+                    will ONLY be required for applicants invited to interview. If invited to interview, official transcripts should be mailed to: 
+                    Yale School of Art Admissions, POB 208339, New Haven, CT 06520-8339. Neither junior college transcripts nor Graduate Record Examination 
+                    (GRE) scores are required.
+
+                    Portfolio of work. Applicants who fail to upload a portfolio as outlined by the stated deadline will NOT be considered. 
+                    The portfolio should represent images of your best work, indicate your current direction, and demonstrate your ability. 
+                    At least half of the images should represent work done within the last twelve months, and all should be from within the last three years.
+                    Chronological order of year is embedded in our system, and you will not be able to override it. The application system used by Yale requires
+                    that one image from the portfolio be designated as a “representative work.” This selection is simply the default image 
+                    for the cover page of each application file. As such, applicants have historically selected the piece which most strongly 
+                    represents ideas central to their current body of work.
+
+                    Do not include more than one image on the screen, nor embed other pages of a publication or video within the images you place in your portfolio. 
+                    Do not include detail photos of work in your portfolio unless you consider them absolutely necessary. Under no circumstances should more than two 
+                    detail shots be included. Portfolio requirements differ depending upon area of concentration; be sure to follow the instructions for the area to 
+                    which you are applying. We strongly recommend that you review your images on a Mac OS to be certain that they are accurately represented.
+
+                    NOTE: All supporting documents that are submitted as a requirement for admission become a part of the official file and cannot be returned 
+                    to the applicant or forwarded to another institution either in copy or original form.
+                </div>
+
+            </div>
+
+
+            <div id = "international_container">
+                
+                <h2>INTERNATIONAL STUDENTS</h2>
+
+                <div class = "international_information">
+                    International students MUST use their passport name on all application materials.
+
+                    English Proficiency Requirements In order to undertake graduate study, all international students and others for whom English is 
+                    not their first language must present evidence of competence in the use of the English language. 
+                    Although we have no official score cut-off, you will have difficulty in an intensive program such as ours without a 
+                    level of language proficiency appropriate for graduate study.
+
+                    Yale School of Art accepts the following English Proficiency exams to fulfill this requirement. 
+                        <ul>
+                            <li>Test of English as a Foreign Language (TOEFL iBT)</li>
+                            <li>The International English Language Testing System (IELTS)</li>
+                            <li>Duolingo English Test</li>
+                        <ul>
+
+                    TOEFL Test of English as a Foreign Language (TOEFL iBT), which is administered by the Educational 
+                    Testing Service, www.ets.org. The TOEFL code number for the Yale School of Art is 3982. Candidates for 
+                    admission generally achieve a composite Internet-based test score of at least 100, or a computer-based score of at least 250,
+                    with speaking and listening scores of at least 28.
+
+                    If the TOEFL iBT is not available in your area, you are required to complete the TOEFL that is available plus you are required
+                    to take the Test of Spoken English (TSE). A minimum TOEFL score of 550 is generally achieved for the pbt.
+
+                    IELTS IELTS test scores may be accepted with a minimum score of 7. Your ability to listen, read, write and speak in English 
+                    will be assessed during the test. IELTS is graded on a scale of 1-9. www.ielts.org IELTS is jointly owned by the British Council, 
+                    IDP: IELTS Australia and Cambridge Assessment English.
+
+                    Duolingo English Test The Duolingo English Test is an online English proficiency test that can be taken online, on-demand, 
+                    in under an hour for only $49. The test is taken via a computer with a camera and includes a proficiency score, video interview, 
+                    and writing sample which are shared with [institution name] when you send your results. Certified results are available within 
+                    48 hours of the test session. englishtest.duolingo.com/applicants
+
+                    *The English Proficiency test may be waived if the undergraduate degree has been obtained from a four-year, 
+                    English-speaking institution. When completing your application please submit without confirming your scores. 
+                    Our faculty reviewers know to verify your language proficiency via transcripts. *
+
+                    Visa Information: In order to receive visa documentation, admitted international students must submit proof that 
+                    income from all sources will be sufficient to meet expenses for two years of study. The full cost of attendance expenses 
+                    for the current academic year, 2020-21 (including tuition) is $64,297 for a single student. Evidence of funds may come from the 
+                    following sources:
+
+                    <b>Affidavit from a bank;</b>
+                    <b>Copy of an award letter stating that financial assistance has been offered;</b>
+                    <b>Certification by parents of their ability and intention to provide the necessary funds;</b>
+                    <b>Certification by employer of anticipated income.</b>
+
+                    <br><br>
+                    All international students who wish to be appointed as teaching assistants during their second year must obtain a United States Social Security number in order to be paid.
+                </div>
+
+            </div>
+
+
+            <h2>ENTRANCE REQUIREMENTS</h2>
+            <div class = "enterance_information">
+                The School of Art requires for admission a high degree of capability and commitment. Applicants must hold a bachelor’s degree from an accredited college or university or 
+                a diploma from a four-year accredited professional art school. In exceptional cases and most particularly in light of the differences among educational structures and 
+                opportunities in the international art world today, the admissions committee may waive these prerequisites if other proofs of preparation and accomplishment 
+                are deemed sufficient equivalents by the committee. In either case, admission to the School of Art is on a highly selective and competitive basis. 
+            </div>
+
+
+            
+            <h2>YALE SCHOOL OF ART ­ADMISSION FALL 2022 ADMISSION DEADLINES + NOTICES</h2>
+            <div class = "admissions_deadline_information">
+                The online application for programs beginning in the 2022–2023 academic year will be linked here after October 10th, 2021. All applications for Fall 2022 must be submitted no later than 11:59:59 PM – EST on Wednesday, January 5, 2022.
+
+                References and supporting documents: While references and TOEFL scores (if applicable) may continue to be received after the January 5th deadline, review of applications begins soon thereafter. Applicants are thus urged to impress upon those writing reference letters, or submitting items on their behalf, that the timely submission of such documents is critical to guarantee inclusion in the admission committee’s review.
+
+                Please also note that upon entering an individual as a reference in the application system, a reference request and URL to upload the recommendation letter is automatically sent to the recipient’s email. Applicants who decide to remove a specific reference from their application must notify that individual directly as the link will become inactive.
+
+                The non-refundable fee to apply is $100. Please note that Yale School or Art practices need-blind admission. “Please see details in the next section of this page.”
+
+                Application Status: Due to the high volume of incoming applications and processing which will be happening remotely this cycle, our office is unable to provide application status checks or confirm the receipt of items by phone or by email. Applicants should familiarize themselves with their Yale admission status page (accessed by logging into the application system) which will indicate outstanding items.
+
+                Receipt of items submitted by digital upload is updated in real time on the application status page checklist. Please allow one week for credentials received by postal mail to be reflected in the status page.
+
+                Admission Decision Notification: First-round admission decisions, which include interview invitations as well as denials, will be sent in February.
+                Editor details
+                Admission
+
+                Students are admitted to Yale’s MFA for the Fall semester of each year only. Applicants are notified of the admission committee’s decisions on preliminary selections in February, and final decisions in early March. No information about decisions will be given over the phone or advance of the batch written release to all finalists. To apply for more than one area of concentration, separate applications, fees, and supporting documentation must be submitted. The work submitted should be representative of the applicant’s experience in that particular field. Applying to more than one program does not increase an applicant’s chances of selection.
+
+                Please note: Yale School of Art does not practice admission deferment; An offer of admission for Fall 2022 is valid only for enrollment for that year regardless of the in-residence conditions of the Yale campus at that time. Applicants who are offered admission but choose not to enroll are welcome to reapply to the School in a future cycle.
+
+                APPLICATION DEADLINE: Online applications for programs beginning in the 2022–2023 academic year must be uploaded no later than 11:59:59 PM EST on January 5, 2022. Applicants will not be allowed to submit materials or applications after the deadline has passed. Please note that when many applicants are uploading simultaneously near the deadline, it is possible that lengthier processing times will be experienced. To avoid this, please consider submitting prior to the deadline day.
+
+                Admission Procedures for Preliminary Selection
+
+                Instructions for All Applicants
+
+                An application to the School of Art requires forethought and planning. It is important to read all of the application instructions carefully. Following these instructions will ensure that your application is viewed to best advantage.
+
+                The Yale School of Art application for the 2022–2023 academic year is available online at https://apply.art.yale.edu/apply. The information that follows will assist you in filing the application online. For an explanation of specific requirements for each area of study, please refer to the departmental sections that follow.
+
+                Application materials:
+
+                The following materials are required for consideration of your application for admission:
+
+                    Submit the online application. Application portal opens on October 5 and may be worked until the January 5 deadline. As it generally takes several weeks to complete an application, it is strongly recommended that applicants prepare their materials early to ensure completion by the deadline.
+
+                Please note that the School of Art is NOT part of the Yale Graduate School of Arts and Sciences, and it is not possible to apply by using application materials found on the Graduate School’s Web site.
+
+                    Nonrefundable application fee of $100. Please follow payment instructions at https://apply.art.yale.edu/apply/. Forms of payment include credit card and checking account.
+
+                Yale School of Art, in our commitment to equity and access, practices “need blind admission”; meaning that, candidate financial need or ability is never disclosed to the admission committee during review of MFA applications. For this reason, and because the processing and careful review of each individual application demands great time and human resources we only waive the application fee for students applying from the following nations with lowest US Exchange rates.
+
+                Nations with lowest US exchange rates Venezuela, Iran, Vietnam, Indonesia, Uzbekistan, Sierra Leone, Laos, Guinea, Paraguay, Cambodia
+
+                Applicants whose nationality and/or current physical location is in one of the above nations may simply submit the application for admission without the fee. Please email art.admissions@yale.edu with the subject line “international exchange rate fee waiver”. The email should include the student’s full name, date of birth, and program to which they are applying. If you qualify for a fee waiver and have already paid, we will refund the fee.
+
+                    A one-page statement that addresses influences, interests, current work direction, brief life history (as it relates to art/design practice), and reasons for applying to graduate school at this time. Statements should be limited to one page or no more than 500 words.
+
+                Applicants to the Painting/Printmaking program should make reference in their statements to the “representative work” in the portfolio; this is not critical for the other programs.
+
+                    References from three persons practicing or teaching in the field in which application is made, attesting to the applicant’s ability and competence in that field.
+
+                NOTE: The admissions committee reviews applications shortly after the deadline. While it is not uncommon for letters of recommendation to come in past the January 5th deadline, please impress upon on those who will be writing on your behalf, that late submission of supporting documentation may risk exclusion from the review. Applicants can always view the receipt status of reference requests on the application status page.
+
+                    Transcripts of academic record for the bachelor’s degree and/or professional art schools attended. Student/unofficial copies may be uploaded to the application for the preliminary jury. Official transcripts will ONLY be required for applicants invited to interview. If invited to interview, official transcripts should be mailed to: Yale School of Art Admissions, POB 208339, New Haven, CT 06520-8339. Neither junior college transcripts nor Graduate Record Examination (GRE) scores are required.
+
+                    Portfolio of work. Applicants who fail to upload a portfolio as outlined by the stated deadline will NOT be considered. The portfolio should represent images of your best work, indicate your current direction, and demonstrate your ability. At least half of the images should represent work done within the last twelve months, and all should be from within the last three years. Chronological order of year is embedded in our system, and you will not be able to override it. The application system used by Yale requires that one image from the portfolio be designated as a “representative work.” This selection is simply the default image for the cover page of each application file. As such, applicants have historically selected the piece which most strongly represents ideas central to their current body of work.
+
+                Do not include more than one image on the screen, nor embed other pages of a publication or video within the images you place in your portfolio. Do not include detail photos of work in your portfolio unless you consider them absolutely necessary. Under no circumstances should more than two detail shots be included. Portfolio requirements differ depending upon area of concentration; be sure to follow the instructions for the area to which you are applying. We strongly recommend that you review your images on a Mac OS to be certain that they are accurately represented.
+
+                NOTE: All supporting documents that are submitted as a requirement for admission become a part of the official file and cannot be returned to the applicant or forwarded to another institution either in copy or original form.
+                Editor details
+                FIND THE PORTFOLIO REQUIREMENTS FOR THE AREA OF STUDY YOU ARE INTERESTED IN HERE >>
+                Editor details
+                INTERNATIONAL STUDENTS
+
+                International students MUST use their passport name on all application materials.
+
+                English Proficiency Requirements In order to undertake graduate study, all international students and others for whom English is not their first language must present evidence of competence in the use of the English language. Although we have no official score cut-off, you will have difficulty in an intensive program such as ours without a level of language proficiency appropriate for graduate study.
+
+                Yale School of Art accepts the following English Proficiency exams to fulfill this requirement. Test of English as a Foreign Language (TOEFL iBT), The International English Language Testing System (IELTS), and The Duolingo English Test.
+
+                TOEFL Test of English as a Foreign Language (TOEFL iBT), which is administered by the Educational Testing Service, www.ets.org. The TOEFL code number for the Yale School of Art is 3982. Candidates for admission generally achieve a composite Internet-based test score of at least 100, or a computer-based score of at least 250, with speaking and listening scores of at least 28.
+
+                If the TOEFL iBT is not available in your area, you are required to complete the TOEFL that is available plus you are required to take the Test of Spoken English (TSE). A minimum TOEFL score of 550 is generally achieved for the pbt.
+
+                IELTS IELTS test scores may be accepted with a minimum score of 7. Your ability to listen, read, write and speak in English will be assessed during the test. IELTS is graded on a scale of 1-9. www.ielts.org IELTS is jointly owned by the British Council, IDP: IELTS Australia and Cambridge Assessment English.
+
+                Duolingo English Test The Duolingo English Test is an online English proficiency test that can be taken online, on-demand, in under an hour for only $49. The test is taken via a computer with a camera and includes a proficiency score, video interview, and writing sample which are shared with [institution name] when you send your results. Certified results are available within 48 hours of the test session. englishtest.duolingo.com/applicants
+
+                *The English Proficiency test may be waived if the undergraduate degree has been obtained from a four-year, English-speaking institution. When completing your application please submit without confirming your scores. Our faculty reviewers know to verify your language proficiency via transcripts. *
+
+                Visa Information: In order to receive visa documentation, admitted international students must submit proof that income from all sources will be sufficient to meet expenses for two years of study. The full cost of attendance expenses for the current academic year, 2020-21 (including tuition) is $64,297 for a single student. Evidence of funds may come from the following sources:
+
+                Affidavit from a bank;
+                Copy of an award letter stating that financial assistance has been offered;
+                Certification by parents of their ability and intention to provide the necessary funds;
+                Certification by employer of anticipated income.
+
+                All international students who wish to be appointed as teaching assistants during their second year must obtain a United States Social Security number in order to be paid.
+                Editor details
+                Next Steps After Applying
+
+                Once an application has been submitted, applicants can track the status of their application and the receipt of required supporting materials (such as recommendations) online. Applicants are encouraged to check the status of their application materials and follow up as necessary.
+
+                Final Selection
+
+                Applicants who have passed the Preliminary Selection Jury will be notified in early February. At this time, applicants invited to interview are required to submit official transcripts and send or prepare to bring original work to the School. Individual interviews will be scheduled for mid-late February, depending on the program. The interview is an important component of the final selection process.
+
+                Guidelines for Interview
+                <ul>
+                    Applicants in Graphic Design should prepare a portfolio of their work in any or all of these areas: graphic design print work, environmental design, broadcast/video graphics, letterform design, interactive media, and other related projects in the visual arts. Applicants are encouraged to present bodies of work that demonstrate special areas of interest. Academic or research papers may also be submitted in support of the application. For two year program applicants at least 12 examples of physical work and for the preliminary program at least 10 examples of physical work may be presented at interview.
+
+                    Applicants in Painting/Printmaking should submit no more than four artworks and four drawings, studies, graphic works, or videos (these are not required to be pieces that were in your application portfolio). For 2021 applicants should prepare a PDF of these works and provide them to the admissions committee.
+
+                    Applicants in Photography prepare a portfolio of no more than 20 un-matted photographic proofs which are no larger than 20 X 24 inches each.
+
+                    Applicants in Sculpture prepare digital files that document the individual’s latest work as well as additional images representing earlier work. Additional documentation to the work in your preliminary portfolio may be brought to your interview (include with portfolio images on a thumb drive for your presentation).Please do not bring any objects for your presentation as the process of setting up takes away from interview time.
+
+                    All Applicants All original works shipped to Yale should be accompanied by a complete inventory, and each work should bear the applicant’s name.
+
+                    Final notification of admission will be e-mailed in early March. Offers of admission are good only for the year in which they are made. We do not practice deferred admission. The Financial Aid Award letter will be e-mailed shortly after notification of admission. No decisions will be given in person or over the telephone.
+
+                    An individual’s acceptance of admission to the School of Art must be received by April 1. All matriculating students must submit a transcript that certifies their undergraduate degree. Admission is not binding unless this certification is received.
+
+                    Return of Work Original Work delivered by hand must be picked up on weekdays during the hours and dates specified. Any hand-delivered work not taken during the specified time will be sent to a commercial warehouse for storage at the applicant’s expense unless other arrangements are made in advance.
+
+                    Work shipped must be prepaid and must be accompanied by a prepaid return shipping label. If you send your work via United Parcel Service, you may purchase a “Call-Tag” for its return from UPS when you make your shipping arrangements. We cannot return or receive COD.
+
+                    Every precaution will be taken to secure the safety of the works submitted for review. However, the School of Art assumes no responsibility for loss or damage to the works from any cause.
+                    </ul>
+
+                ENTRANCE REQUIREMENTS
+                The School of Art requires for admission a high degree of capability and commitment. Applicants must hold a bachelor’s degree from an accredited college or university or a diploma from a four-year accredited professional art school. In exceptional cases and most particularly in light of the differences among educational structures and opportunities in the international art world today, the admissions committee may waive these prerequisites if other proofs of preparation and accomplishment are deemed sufficient equivalents by the committee. In either case, admission to the School of Art is on a highly selective and competitive basis.
+                Editor details
+
+                YALE UNIVERSITY’S NONDISCRIMINATION/TITLE IX STATEMENTS
+                The University is committed to basing judgments concerning the admission, education, and employment of individuals upon their qualifications and abilities and affirmatively seeks to attract to its faculty, staff, and student body qualified persons of diverse backgrounds. In accordance with this policy and as delineated by federal and Connecticut law, Yale does not discriminate in admissions, educational programs, or employment against any individual on account of that individual’s sex, race, color, religion, age, disability, status as a protected veteran, or national or ethnic origin; nor does Yale discriminate on the basis of sexual orientation or gender identity or expression. University policy is committed to affirmative action under law in employment of women, minority group members, individuals with disabilities, and protected veterans. Inquiries concerning these policies may be referred to Valarie Stanley, Director of the Office for Equal Opportunity Programs, 221 Whitney Avenue, 3rd Floor, 203.432.0849. For additional information, see www.yale.edu/equalopportunity. Title IX of the Education Amendments of 1972 protects people from sex discrimination in educational programs and activities at institutions that receive federal financial assistance. Questions regarding Title IX may be referred to the University’s Title IX Coordinator, Stephanie Spangler, at 203.432.4446 or at titleix@yale.edu, or to the U.S. Department of Education, Office for Civil Rights, 8th Floor, Five Post Office Square, Boston MA 02109-3921. Telephone: 617.289.0111, Fax: 617.289.0150, TDD: 800.877.8339, or Email: ocr.boston@ed.gov. 
+            </div>
+        </section>
+
+        <section id = "portfolio-requirements">
+            
+            <div class = "rec-areas">
+                <!--COURSE CARD COLLAPSABLE-->
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Making Payments to Student Account
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">                                   
+                                There are a variety of options offered for making payments. Yale University eBill-ePay (http://student-accounts.yale.edu/ebep) is the preferred means for payment of your monthly student account bill. The ePayments are immediately posted to the student account. There is no charge to use this service. Bank information is password-protected and secure, and a printable confirmation receipt is available. On bill due dates, payments using the eBill-ePay system can be made up to 4 p.m. Eastern Time in order to avoid late fees.
+
+                                For those who choose to pay the student account bill by check, a remittance advice and mailing instructions are included with the online bill available on the eBill-ePay website. All bills must be paid in U.S. currency. Checks must be payable in U.S. dollars drawn on a U.S. bank. Payments can also be made via wire transfer. Instructions for wire transfer are available on the eBill-ePay website.
+                                
+                                Yale does not accept credit card payments.
+                                
+                                A processing charge of $25 will be assessed for payments rejected for any reason by the bank on which they were drawn. In addition, the following penalties may apply if a payment is rejected:
+                                
+                                    If the payment was for a term bill, late fees of $125 per month will be charged for the period the bill was unpaid, as noted above.
+                                
+                                    If the payment was for a term bill to permit registration, the student’s registration may be revoked.
+                                
+                                    If the payment was given to settle an unpaid balance in order to receive a diploma, the University may refer the account to an attorney for collection.
+                                
+                                b. Yale Payment Plan
+                                
+                                The Yale Payment Plan (YPP) is a payment service that allows students and their families to pay tuition, room, and board in ten equal monthly installments throughout the year based on individual family budget requirements. It is administered by the University’s Office of Student Financial Services. The cost to enroll in the YPP is $100 per contract. The deadline for enrollment is June 25. Additional details concerning the Yale Payment Plan are available at http://student-accounts.yale.edu/ypp.
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                            
+            </div>
+
+        </section>
+        
+        <!-- Footer -->
+        <footer class="page-footer footer-yale pt-4">
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left">
+
+                <!-- Footer links -->
+                <div class="row text-md-left mt-3 pb-3">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <img src="..\Img\yale-icons\touch-icon-228.png" width="75" height="75" class="d-inline-block align-top yaleIcon" alt="">
+                </div>
+
+
+                
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 ">Useful links</h6>
+                    <hr>
+                    <p><a href="https://covid19.yale.edu/">COVID-19 INFO</a></p>
+                    <p><a href="https://www.yale.edu/about-yale/visiting">Maps and Directions</a></p>
+                    <p><a href="https://visitorcenter.yale.edu/tours">Campus Tours</a></p>
+                    <p><a href="https://www.yale.edu/research-collections/museums-galleries">Museums and Galleries</a></p>
+                </div>
+
+                
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 ">Contact</h6>
+                    <hr>
+                    <p><i class="fas fa-home mr-3"></i> New Haven, CT 06520</p>
+                    <p><i class="fas fa-phone mr-3"></i> 203-432-4771</p>
+
+                    <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            </li>
+                            <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            </li>
+                            <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            </li>
+                            <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            </li>
+                        </ul>
+                </div>
+      
+            </div>
+           
+
+            <div class="row d-flex align-items-center bottomCopyright">
+                <div class="col-md-7 col-lg-8">
+
+                    <!--Copyright-->
+                    <p class="text-center ">© 2022 Copyright<a href=""> Yale University</a> | Created by <a href="">Brittany Hughes</a></p>
+
+                </div>
+
+            </div>
+           
+
+
+        </footer>
+      
+    </body>
+
+</html>

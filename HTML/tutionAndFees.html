@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+ 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tuition and Fees - Yale School of Art</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="icon" href="../Img/yale-icons/favicon.ico"/> 
+
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300;400;600&family=STIX+Two+Math&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+        <!--Fontawsome-->
+        <script src="https://kit.fontawesome.com/552306346c.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="..\CSS\style.css">
+        <link rel="stylesheet" href="..\CSS\tuitionFees.css">
+    </head>
+
+    <body>
+         
+        <!--NAVBAR-->
+        
+        <nav class = "navbar navbar-expand-lg navbar-dark"  style="background-color: #0035A1;">
+
+            <a class="navbar-brand" href="https://www.yale.edu/">
+                <img src="..\Img\yale-icons\touch-icon-228.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Yale School of Art - Tuition and Fees
+            </a>
+
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class = "navbar-nav  ml-auto">
+
+                    <li class = "nav-item active">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+
+                    <li class = "nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="courses.html">Courses</a>
+                        <a class="dropdown-item" href="graduateStudyAreas.html">Graduate Study Areas</a>
+                        </div>
+                    </li>
+
+                    <li class = "nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Apply</a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="admission.html">Admission</a>
+                        <a class="dropdown-item" href="graduateAdmission.html">Graduate Admission</a>
+                        <a class="dropdown-item" href="tutionAndFees.html">Tuition and Fees</a>
+                        <a class="dropdown-item" href="housing.html">Housing</a>
+                        </div>
+                    </li>
+
+                    <li class = "nav-item active">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+
+        <!--SLIDESHOW-->
+        <section id = "caroucell-img">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-keyboard = "true">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="..\Img\Caroucell\YaleArtBuilding.jpg" class="d-block w-100" alt="Yale University Art Builng">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..\Img\Caroucell\Artroom.jpg" class="d-block w-100" alt="Yale University room with art students">
+                    </div>
+                   
+                </div>
+
+                    <!-- The href below must be the same as the id in the caroucel-->
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+        </section>
+
+        <!--COURSES-->
+        <section id = "tuition-Fees">
+            <h3>
+                Student Budget & Cost of Attendance
+
+                Our financial aid awards are based on a budget of tuition and fees plus allowances for living expenses, books, etc. 
+                These budgets reflect our estimate of the cost of a moderate style of living in New Haven for the nine-month academic year.
+
+                Basic Budget 	2021-2022 	2020-2021
+                Tuition 	    $42,275 	$41,124
+                Living Expenses 	$18,000 	$18,000
+                Books/Supplies 	$5,400 $5400
+                University Hospitalization Coverage 	$2,650 	$2,548
+                TOTAL 	$65,675 	$92,098
+
+
+                * Undergraduate art majors: $200 per term facilities access/user fee
+            </h3>    
+
+            <div class = "rec-areas">
+                <!--COURSE CARD COLLAPSABLE-->
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Student Accounts and Billing
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">                                   
+                                Student accounts, billing, and related services are administered through the Office of Student Financial Services, which is located at 246 Church Street. The office’s website is http://student-accounts.yale.edu.
+
+                                b. Bills
+                                
+                                Yale University’s official means of communicating monthly financial account statements is through the University’s Internet-based system for electronic billing and payment, Yale University eBill-ePay. Yale does not mail paper bills.
+                                
+                                Student account statements are prepared and made available twelve times a year at the beginning of each month. Payment is due in full by 4 p.m. Eastern Time on the first business day of the following month. E-mail notifications that the account statement is available on the University eBill-ePay website (http://student-accounts.yale.edu/ebep) are sent to all students at their official Yale e-mail addresses and to all student-designated proxies. Students can grant others proxy access to the eBill-ePay system to view the monthly student account statements and make online payments. For more information, see http://sfas.yale.edu/proxy-access-and-authorization.
+                                
+                                Bills for tuition, room, and board are available during the first week of July, due and payable by August 1 for the fall term; and during the first week of November, due and payable by December 1 for the spring term. The Office of Student Financial Services will impose late fees of $125 per month (up to a total of $375 per term) if any part of the term bill, less Yale-administered loans and scholarships that have been applied for on a timely basis, is not paid when due. Nonpayment of bills and failure to complete and submit financial aid application packages on a timely basis may result in the student’s involuntary withdrawal from the University.
+                                
+                                No degrees will be conferred and no transcripts will be furnished until all bills due the University are paid in full. In addition, transcripts will not be furnished to any student or former student who is in default on the payment of a student loan.
+                                
+                                The University may withhold registration and certain University privileges from students who have not paid their term bills or made satisfactory payment arrangements by the day of registration. To avoid delay at registration, students must ensure that payments reach Student Financial Services by the due dates.                                               
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                            
+            </div>
+
+            <div class = "rec-areas">
+                <!--COURSE CARD COLLAPSABLE-->
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Making Payments to Student Account
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">                                   
+                                There are a variety of options offered for making payments. Yale University eBill-ePay (http://student-accounts.yale.edu/ebep) is the preferred means for payment of your monthly student account bill. The ePayments are immediately posted to the student account. There is no charge to use this service. Bank information is password-protected and secure, and a printable confirmation receipt is available. On bill due dates, payments using the eBill-ePay system can be made up to 4 p.m. Eastern Time in order to avoid late fees.
+
+                                For those who choose to pay the student account bill by check, a remittance advice and mailing instructions are included with the online bill available on the eBill-ePay website. All bills must be paid in U.S. currency. Checks must be payable in U.S. dollars drawn on a U.S. bank. Payments can also be made via wire transfer. Instructions for wire transfer are available on the eBill-ePay website.
+                                
+                                Yale does not accept credit card payments.
+                                
+                                A processing charge of $25 will be assessed for payments rejected for any reason by the bank on which they were drawn. In addition, the following penalties may apply if a payment is rejected:
+                                
+                                    If the payment was for a term bill, late fees of $125 per month will be charged for the period the bill was unpaid, as noted above.
+                                
+                                    If the payment was for a term bill to permit registration, the student’s registration may be revoked.
+                                
+                                    If the payment was given to settle an unpaid balance in order to receive a diploma, the University may refer the account to an attorney for collection.
+                                
+                                b. Yale Payment Plan
+                                
+                                The Yale Payment Plan (YPP) is a payment service that allows students and their families to pay tuition, room, and board in ten equal monthly installments throughout the year based on individual family budget requirements. It is administered by the University’s Office of Student Financial Services. The cost to enroll in the YPP is $100 per contract. The deadline for enrollment is June 25. Additional details concerning the Yale Payment Plan are available at http://student-accounts.yale.edu/ypp.
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                            
+            </div>
+
+            <div class = "rec-areas">
+                <!--COURSE CARD COLLAPSABLE-->
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Tuition Rebate and Refund Policy
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">    
+                                On the basis of the federal regulations governing the return of federal student aid (Title IV) funds for withdrawn students, the rebate and refund of tuition are subject to the following policy:
+
+                                    For purposes of determining the refund of federal student aid funds, any student who withdraws from the School of Art for any reason during the first 60 percent of the term will be subject to a pro rata schedule that will be used to determine the amount of Title IV funds a student has earned at the time of withdrawal. A student who withdraws after the 60 percent point has earned 100 percent of the Title IV funds. In 2018–2019, the last days for refunding federal student aid funds will be October 29 in the fall term and March 29 in the spring term.
+
+                                    For purposes of determining the refund of institutional aid funds and for students who have not received financial aid:
+
+                                A. 100 percent of tuition will be rebated for withdrawals that occur on or before the end of the first 10 percent of the term (September 7, 2018, in the fall term and January 24, 2019, in the spring term).
+
+                                B. A rebate of one-half (50 percent) of tuition will be granted for withdrawals that occur after the first 10 percent but on or before the last day of the first quarter of the term (September 23, 2018, in the fall term and February 8, 2019, in the spring term).
+
+                                C. A rebate of one-quarter (25 percent) of tuition will be granted for withdrawals that occur after the first quarter of a term but on or before the day of midterm (October 19, 2018, in the fall term and March 4, 2019, in the spring term).
+
+                                D. Students who withdraw for any reason after midterm will not receive a rebate of any portion of tuition.
+
+                                    The death of a student will cancel charges for tuition as of the date of death, and the bursar will adjust the tuition on a pro rata basis.
+
+                                    If the student has received student loans or other forms of financial aid, funds will be returned in the order prescribed by federal regulations; namely, first to Federal Direct Unsubsidized Loans, if any; then to Federal Perkins Loans; then to Federal Direct Graduate PLUS Loans; next to any other federal, state, private, or institutional scholarships and loans; and, finally, any remaining balance to the student.
+
+                                    Recipients of federal and/or institutional loans who withdraw are required to have an exit interview before leaving Yale. Students leaving Yale receive instructions on completing this process from Yale Student Financial Services.
+                                                            
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                            
+            </div>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="page-footer footer-yale pt-4">
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left">
+
+                <!-- Footer links -->
+                <div class="row text-md-left mt-3 pb-3">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <img src="..\Img\yale-icons\touch-icon-228.png" width="75" height="75" class="d-inline-block align-top yaleIcon" alt="">
+                </div>
+
+
+                
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 ">Useful links</h6>
+                    <hr>
+                    <p><a href="https://covid19.yale.edu/">COVID-19 INFO</a></p>
+                    <p><a href="https://www.yale.edu/about-yale/visiting">Maps and Directions</a></p>
+                    <p><a href="https://visitorcenter.yale.edu/tours">Campus Tours</a></p>
+                    <p><a href="https://www.yale.edu/research-collections/museums-galleries">Museums and Galleries</a></p>
+                </div>
+
+                
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 ">Contact</h6>
+                    <hr>
+                    <p><i class="fas fa-home mr-3"></i> New Haven, CT 06520</p>
+                    <p><i class="fas fa-phone mr-3"></i> 203-432-4771</p>
+
+                    <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            </li>
+                            <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            </li>
+                            <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            </li>
+                            <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            </li>
+                        </ul>
+                </div>
+      
+            </div>
+           
+
+            <div class="row d-flex align-items-center bottomCopyright">
+                <div class="col-md-7 col-lg-8">
+
+                    <!--Copyright-->
+                    <p class="text-center ">© 2020 Copyright<a href=""> Yale University</a> | Created by <a href="">Brittany Hughes</a></p>
+
+                </div>
+
+            </div>
+           
+
+
+        </footer>
+      
+    </body>
+
+</html>
